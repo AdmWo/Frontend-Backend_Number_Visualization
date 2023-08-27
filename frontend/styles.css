@@ -1,0 +1,26 @@
+#number-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 60px;
+}
+
+.number-row {
+    display: flex;
+    justify-content: flex-start; /* Start each column from the same position */
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between rows */
+    width: 100%; /* Make sure each row spans the full width */
+}
+
+.number-box {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+}

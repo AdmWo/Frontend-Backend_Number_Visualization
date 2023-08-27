@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend with Backend Communication</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<h1>Fun with numbers! :D</h1>
+<div class="controls">
+    <label for="columns">#Columns:</label>
+    <input type="range" id="columns" min="1" max="25" value="3">
+    <span id="columnsValue">3</span>
+    <br>
+    <label for="fontSize">Font Size:</label>
+    <input type="range" id="fontSize" min="10" max="40" value="24">
+    <span id="fontSizeValue">24px</span>
+    <br>
+    <label for="rowGap">Row Gap:</label>
+    <input type="range" id="rowGap" min="0" max="30" value="10">
+    <span id="rowGapValue">10px</span>
+    <br>
+    <label for="equation">Equation:</label>
+    <input type="text" id="equation">
+    <button id="update-btn">Update</button>
+</div>
+
+<ul id="number-list" ></ul>
+
+</body>
+</html>
